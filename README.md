@@ -1,6 +1,6 @@
 <h2><centre>Badoo_Blog</centre></h2>
 
-<h1>A Blogging Website that allows </li>
+<h1>A Blogging Website that allows </h1>
 <ul>
     <li>the registration of new users</li>
     <li>Creating Of Post</li>
