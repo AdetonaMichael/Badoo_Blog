@@ -66,7 +66,7 @@
  </section>
 <section>
   <div class=" py-15 bg-gray-200 box-shadow  shadow-lg rounded mb-5">
-    <h2 class="text-center  text-gray-800 mb-10 font-bold text-4xl">You May Also like</h2>
+    <h2 class="text-center  text-gray-500 mb-10 font-bold text-4xl">You May Also like</h2>
     <div class="block justify-around md:flex owl-carousel owl-theme">
 
         <div class="box2 bg-pink-300 md:mx-5 rounded-lg">
@@ -74,10 +74,10 @@
            <img src="https://cdn.pixabay.com/photo/2021/06/10/22/14/stork-6327150_960_720.jpg" width=600 height=400 alt="api blog image">
             </div>
                 <hr>
-                <div class="relative bg-pink-800 justify-around p-8 text-gray-50 rounded-xl space-y-7">
+                <div class="relative bg-gray-500 justify-around p-8 text-gray-50 rounded-xl space-y-7">
                     <div class="h-3 w-10 bg-yellow-400"></div>
                     <h2  style="font-size:xxx-large;" classs=" text-white text-5xl">25%</h2>
-                        <p class="leading-snug text-gray-400"> Mapping Insight Score. Delight your Users and improve your Mapping Skills</p>
+                        <p class="leading-snug text-gray-100"> Mapping Insight Score. Delight your Users and improve your Mapping Skills</p>
                         <a href="#" class="pt-2 text-yellow-400 font-bold tracking-wide flex">Learn More <i class="fas fa-arrow-right pl-3"></i></a>
                 </div>
                 <br><br>
@@ -89,10 +89,10 @@
               <img src="https://cdn.pixabay.com/photo/2019/09/17/18/48/computer-4484282_960_720.jpg" width=600 height=400 alt="blog api post">
             </div>
                 <hr>
-                <div class="relative bg-pink-800 justify-around p-8 text-gray-50 rounded-xl space-y-7">
+                <div class="relative bg-gray-500 justify-around p-8 text-gray-50 rounded-xl space-y-7">
                     <div class="h-3 w-10 bg-yellow-400"></div>
                     <h2  style="font-size:xxx-large;" classs=" text-white text-5xl">25%</h2>
-                        <p class="leading-snug text-gray-400"> Mapping Insight Score. Delight your Users and improve your Mapping Skills</p>
+                        <p class="leading-snug text-gray-100"> Mapping Insight Score. Delight your Users and improve your Mapping Skills</p>
                         <a href="#" class="pt-2 text-yellow-400 font-bold tracking-wide flex">Learn More <i class="fas fa-arrow-right pl-3"></i></a>
                 </div>
                 <br><br>
@@ -104,10 +104,10 @@
             <img src="https://cdn.pixabay.com/photo/2014/02/13/07/28/wordpress-265132_960_720.jpg" width=600 height=400 alt="may also like blog image">
             </div>
                 <hr>
-                <div class="relative bg-pink-800 justify-around p-8 text-gray-50 rounded-xl space-y-7">
+                <div class="relative bg-gray-500 justify-around p-8 text-gray-50 rounded-xl space-y-7">
                     <div class="h-3 w-10 bg-yellow-400"></div>
                     <h2  style="font-size:xxx-large;" classs=" text-white text-5xl">25%</h2>
-                        <p class="leading-snug text-gray-400"> Mapping Insight Score. Delight your Users and improve your Mapping Skills</p>
+                        <p class="leading-snug text-gray-100"> Mapping Insight Score. Delight your Users and improve your Mapping Skills</p>
                         <a href="#" class="pt-2 text-yellow-400 font-bold tracking-wide flex">Learn More <i class="fas fa-arrow-right pl-3"></i></a>
                 </div>
                 <br><br>
@@ -131,15 +131,7 @@
          items: 4
 
 });
-
  </script>
- <script>
-  $(document).ready(function(){
-    $.getJSON("https://newsapi.org/v2/everything?q=bitcoin&apiKey=7929f0ff7afe4714bd2bb41c46405ba1", function(data){
-         console.log(data);
-         console.log(data.articles[]);
-    });
-  });
-   </script>
+
 
 @endsection

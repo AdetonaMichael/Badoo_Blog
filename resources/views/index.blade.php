@@ -2,204 +2,74 @@
 
 @section('content')
 <div class="background-image text-gray-800 grid grid-cols-1 m-auto">
-        <div class="m-auto md:p-10  w-4/5 justify-center bg-gray-300 flex  text-center">
-           <div class="image"><svg  aria-hidden="true" focusable="false" data-prefix="fas" data-icon="blog" class="svg-inline--fa fa-blog fa-w-16 md:w-60 md:h-60 mx-0 my-0" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M172.2 226.8c-14.6-2.9-28.2 8.9-28.2 23.8V301c0 10.2 7.1 18.4 16.7 22 18.2 6.8 31.3 24.4 31.3 45 0 26.5-21.5 48-48 48s-48-21.5-48-48V120c0-13.3-10.7-24-24-24H24c-13.3 0-24 10.7-24 24v248c0 89.5 82.1 160.2 175 140.7 54.4-11.4 98.3-55.4 109.7-109.7 17.4-82.9-37-157.2-112.5-172.2zM209 0c-9.2-.5-17 6.8-17 16v31.6c0 8.5 6.6 15.5 15 15.9 129.4 7 233.4 112 240.9 241.5.5 8.4 7.5 15 15.9 15h32.1c9.2 0 16.5-7.8 16-17C503.4 139.8 372.2 8.6 209 0zm.3 96c-9.3-.7-17.3 6.7-17.3 16.1v32.1c0 8.4 6.5 15.3 14.8 15.9 76.8 6.3 138 68.2 144.9 145.2.8 8.3 7.6 14.7 15.9 14.7h32.2c9.3 0 16.8-8 16.1-17.3-8.4-110.1-96.5-198.2-206.6-206.7z"></path></svg></div> 
-           <div class="content space-y-10 p-5 font-serif text-xl"> 
+        <div class="m-auto md:p-10  w-4/5 justify-center bg-gray-100 flex  text-center rounded-md shadow-lg">
+           <div class="image"><svg  aria-hidden="true" focusable="false" data-prefix="fas" data-icon="blog" class=" text-pink-700 animate__animated animate__slideInDown svg-inline--fa fa-blog fa-w-16 md:w-60 md:h-60 mx-0 my-0" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M172.2 226.8c-14.6-2.9-28.2 8.9-28.2 23.8V301c0 10.2 7.1 18.4 16.7 22 18.2 6.8 31.3 24.4 31.3 45 0 26.5-21.5 48-48 48s-48-21.5-48-48V120c0-13.3-10.7-24-24-24H24c-13.3 0-24 10.7-24 24v248c0 89.5 82.1 160.2 175 140.7 54.4-11.4 98.3-55.4 109.7-109.7 17.4-82.9-37-157.2-112.5-172.2zM209 0c-9.2-.5-17 6.8-17 16v31.6c0 8.5 6.6 15.5 15 15.9 129.4 7 233.4 112 240.9 241.5.5 8.4 7.5 15 15.9 15h32.1c9.2 0 16.5-7.8 16-17C503.4 139.8 372.2 8.6 209 0zm.3 96c-9.3-.7-17.3 6.7-17.3 16.1v32.1c0 8.4 6.5 15.3 14.8 15.9 76.8 6.3 138 68.2 144.9 145.2.8 8.3 7.6 14.7 15.9 14.7h32.2c9.3 0 16.8-8 16.1-17.3-8.4-110.1-96.5-198.2-206.6-206.7z"></path></svg></div> 
+           <div class="content space-y-10 p-5 font-serif text-xl leading-10"> 
            <h1 class="text-gray-800 text-4xl uppercase font-bold">Lorem Heading Title </h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur dignissimos iure, officiis rem dolorem culpa consequuntur eius voluptatum blanditiis ut, quas ullam, nobis nostrum. Blanditiis fugiat quae dicta! Excepturi, repellat.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nesciunt esse dolor vitae blanditiis ullam suscipit ipsum in adipisci nemo.</p>
+  
            </div>
         </div>
 </div>
-<div class="mx-0 min-h-4/5 text-center text-gray-900 justify-center md:grid md:grid-cols-3 p-10 ">
-     <div class="holder1 text-center">
-         <i class="fa fa-address-card fa-3x bg-gray-300" aria-hidden="true"></i>
-             <h2>Entertainment</h2>
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis autem eum numquam asperiores consequatur cumque nisi non quibusdam magni velit.</p>
+<div class="mx-0 min-h-4/5 text-center text-gray-900 justify-around md:grid md:grid-cols-3 p-10 ">
+     <div class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
+         <i class="fa fa-film fa-3x text-pink-700 border-gray-500  p-5 border-dotted hover:animate-pulse  border-8 rounded-full m-5 " aria-hidden="true"></i>
+             <h2 class="text-2xl font-bold">Entertainment</h2>
+             <p class="text-xl leading-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis autem eum numquam asperiores consequatur cumque nisi non quibusdam magni velit.</p>
      </div>
-     <div class="holder1 text-center bg-gray-300 md:mx-5 my-5">
-         <i class="fa fa-address-card fa-3x" aria-hidden="true"></i>
-             <h2>Entertainment</h2>
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis autem eum numquam asperiores consequatur cumque nisi non quibusdam magni velit.</p>
+     <div class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
+         <i class="fa fa-address-card fa-3x text-pink-700 border-gray-500  p-5 border-dashed hover:animate-pulse  border-8 rounded-full m-5 " aria-hidden="true"></i>
+             <h2 class="text-2xl font-bold ">Entertainment</h2>
+             <p class="text-xl leading-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis autem eum numquam asperiores consequatur cumque nisi non quibusdam magni velit.</p>
      </div>
-     <div class="holder1 text-cente bg-gray-300r">
-         <i class="fa fa-address-card fa-3x" aria-hidden="true"></i>
-             <h2>Entertainment</h2>
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis autem eum numquam asperiores consequatur cumque nisi non quibusdam magni velit.</p>
+     <div class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
+         <i class="fa fa-address-card fa-3x text-pink-700 border-gray-500  p-5 borde-dashed hover:animate-pulse border-8 rounded-full m-5 " aria-hidden="true"></i>
+             <h2 class="text-2xl font-bold">Entertainment</h2>
+             <p class="text-xl leading-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis autem eum numquam asperiores consequatur cumque nisi non quibusdam magni velit.</p>
      </div>
+    
 
 
 </div>
 
-<div class="md:mx-20 py-15 bg-gray-900 box-shadow  shadow-lg rounded mb-5">
-    <h2 class="text-center  text-white mb-10 font-extrabold text-6xl">The Geo Team</h2>
-    <div class="block md:flex">
-        {{-- <div class="box2 bg-gray-700 md:mx-5 rounded-lg">
-            <h4 class=" text-white pl-5 my-5 bold font-bold">head2</h4>
-            <span class="fas fa-file text-right text-white mx-5">
-
-                <br><br>
-                <hr>
-                <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error autem eligendi facilis,
-                    quis sint ipsum neque voluptates totam corporis provident quia aliquam deserunt, aut quod nemo
-                    doloribus magni saepe laudantium.</p>
-                <hr>
-                <br><br>
-
-        </div> --}}
-
-        <div class="box2 bg-gray-700 md:mx-5 rounded-lg">
-            <div class="flex items-center justify-end">
-            <h4 class=" text-white pl-5 my-5 font-extrabold text-4xl">Mapper</h4>
-            <span class="fas fa-map text-right text-white mx-5 fa-2x"></span>
-            </div>
-                <hr>
-                <div class="relative bg-gray-800 justify-around p-8 text-gray-50 rounded-xl space-y-7">
-                    <div class="h-3 w-10 bg-yellow-400"></div>
-                    <h2  style="font-size:xxx-large;" classs=" text-white text-5xl">25%</h2>
-                        <p class="leading-snug text-gray-400"> Mapping Insight Score. Delight your Users and improve your Mapping Skills</p>
-                        <a href="#" class="pt-2 text-yellow-400 font-bold tracking-wide flex">Learn More <i class="fas fa-arrow-right pl-3"></i></a>
-                </div>
-                <br><br>
-                <hr>
-        </div>
-        <div class="box2 bg-gray-700 md:mx-5 rounded-lg">
-            <div class="flex items-center justify-end">
-                <h4 class=" text-white pl-5 my-5 font-extrabold text-4xl">Developer</h4>
-                <span class="fas fa-mobile text-right text-white mx-5 fa-2x"></span>
-                </div>
-                <hr>
-                <div class="relative bg-gray-800 p-8 text-gray-50 rounded-xl space-y-7">
-                    <div class="h-3 w-10 bg-yellow-400"></div>
-                    <h2 style="font-size:xxx-large;" classs=" text-white text-left">50%</h2>
-                        <p class="leading-snug text-gray-400"> Developer Insight Score. Develop Both Mobile and Web products For Solving Problems and Delivering solution</p>
-                        <a href="#" class="pt-2 text-yellow-400 font-bold tracking-wide flex">Learn More <i class="fas fa-arrow-right pl-3"></i></a>
-                </div>
-                <br><br>
-                <hr>
-        </div>
-        <div class="box2 bg-gray-700 md:mx-5 rounded-lg">
-            <div class="flex items-center justify-end">
-                <h4 class=" text-white pl-5 my-5 font-extrabold text-4xl">Geo-Developer</h4>
-                <span class="fas fa-globe text-right text-white mx-5 fa-2x"></span>
-                </div>
-                <hr>
-                <div class="relative bg-gray-800 p-8 text-gray-50 rounded-xl space-y-7">
-                    <div class="h-3 w-10 bg-yellow-400"></div>
-                    <h2 style="font-size:xxx-large;" classs=" text-white text-left">100%</h2>
-                        <p class="leading-snug text-gray-400"> Integrate Mapping Skills with Developer Skills and leverage the Benefits By connecting with Your Clients</p>
-                        <a href="#" class="pt-2 text-yellow-400 font-bold tracking-wide flex">Learn More <i class="fas fa-arrow-right pl-3"></i></a>
-                </div>
-                <br><br>
-                <hr>
-        </div>
-
-      
-
-    </div>
-</div>
-{{-- <div class="">
-    <div class="items-center justify-between flex my-4">
-        <div class=" m-5">
-          <h2 class="text-4xl md:text-4xl font-semibold tracking-tight  leading-7 md:leading-10 mb-2 truncate">Join Our Geo Developer Team</h2>
-          <p class="font-base text-2xl tracking-tight text-gray-600 mb-2 p-10">Lorem ipsum is placeholder text commonly used in the graphic. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dicta commodi tempore.</p>
-       
-        </div>
-      </div>
-     
-</div> --}}
 
 
-<div class="becomeus block md:flex justify-center">
-    <div class="thetext items-justify-center m-5 p-5 relative top-11">
-        <h2 class="text-4xl font-bold pb-4 ">Become Part of Our Team</h2>
-        <p class="font-semibold font-sans">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque
+    
+
+
+<div class="becomeus block md:flex justify-around">
+    <div class="thetext items-justify-center p-5 relative top-11 space-y-8">
+        <h2 class="text-6xl font-bold pb-2 mb-5 ">Join Our Blogging Team</h2>
+        <p class=" text-2xl leading-10 font-serif text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque
             quis, perspiciatis obcaecati dolore velit nobis deserunt incidunt ipsam voluptate perferendis laboriosam
             maxime rerum ratione dolorum nulla qui similique, neque distinctio corporis, illo eligendi sequi magni.
             Modi, quasi!</p>
-        <div class="socials block md:flex justify-around">
-            <button
-                class="bg-green-400  px-5 py-2 my-6 text-sm shadow-sm font-semibold tracking-wider text-white rounded hover:bg-gray-800">Join
-                Us <i class="fab fa-whatsapp fa-2x px-2 bg-green-400 text-white"></i></button>
-            <button
-                class="bg-blue-600 px-5 py-2 my-6 text-sm shadow-sm font-semibold tracking-wider text-white rounded hover:bg-gray-800">Join
-                Us <i class="fab fa-facebook fa-2x px-2 bg-blue-600 text-white"></i></button>
-            <button
-                class="bg-gray-900 px-5 py-2 my-6 text-sm shadow-sm font-semibold tracking-wider text-white rounded hover:bg-gray-800">Join
-                Us <i class="fab fa-instagram fa-2x px-2"></i></button>
+        {{-- <div class="socials block md:flex justify-around"> --}}
+               
+          <div class="pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
+            <a class="link" href="#" data-tippy-content="@facebook_handle"><svg class="h-6 fill-current text-blue-600 hover:text-pink-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"/></svg></a>
+            <a class="link" href="#" data-tippy-content="@twitter_handle"><svg class="h-6 fill-current text-gray-700 hover:pink-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg></a>
+            <a class="link" href="#" data-tippy-content="@github_handle"><svg class="h-6 fill-current text-gray-600 hover:text-pink-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+            <a class="link" href="#" data-tippy-content="@unsplash_handle"><svg class="h-6 fill-current text-gray-600 hover:text-pink-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Unsplash</title><path d="M7.5 6.75V0h9v6.75h-9zm9 3.75H24V24H0V10.5h7.5v6.75h9V10.5z"/></svg></a>
+            <a class="link" href="#" data-tippy-content="@dribble_handle"><svg class="h-6 fill-current text-gray-600 hover:text-pink-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Dribbble</title><path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308 2.3-1.555 3.936-4.02 4.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.025-8.04 6.4 1.73 1.358 3.92 2.166 6.29 2.166 1.42 0 2.77-.29 4-.814zm-11.62-2.58c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12-.26-.585-.54-1.167-.832-1.74C7.17 11.775 2.206 11.71 1.756 11.7l-.004.312c0 2.633.998 5.037 2.634 6.855zm-2.42-8.955c.46.008 4.683.026 9.477-1.248-1.698-3.018-3.53-5.558-3.8-5.928-2.868 1.35-5.01 3.99-5.676 7.17zM9.6 2.052c.282.38 2.145 2.914 3.822 6 3.645-1.365 5.19-3.44 5.373-3.702-1.81-1.61-4.19-2.586-6.795-2.586-.825 0-1.63.1-2.4.285zm10.335 3.483c-.218.29-1.935 2.493-5.724 4.04.24.49.47.985.68 1.486.08.18.15.36.22.53 3.41-.43 6.8.26 7.14.33-.02-2.42-.88-4.64-2.31-6.38z"/></svg></a>
+            <a class="link" href="#" data-tippy-content="@instagram_handle"><svg class="h-6 fill-current text-gray-600 hover:text-pink-700" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
+            <a class="link" href="#" data-tippy-content="@youtube_handle"><svg class="h-6 fill-current text-red-600 hover:text-pink-700" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>YouTube</title><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg></a>
         </div>
+        
+        {{-- </div> --}}
     </div>
 
     <div class=" m-5 p-5">
         <div class="svgimage ">
-            <svg id="ab47acfe-844d-4101-aa7b-df38aa50dbe4"  data-name="Layer 1"
-                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 971.0518 628.38145">
-                <path
-                    d="M847.93141,636.215h0a249.62642,249.62642,0,0,1-2.09461-54.11121l2.09461-29.88879h0c-11.54175,22.96552-8.93335,53.1922,0,83.99994Z"
-                    transform="translate(-114.4741 -135.80928)" fill="#cacaca" />
-                <path
-                    d="M856.93141,641.215h0a183.49726,183.49726,0,0,1-1.00781-32.209l1.00781-17.791h0C851.37831,604.885,852.63331,622.877,856.93141,641.215Z"
-                    transform="translate(-114.4741 -135.80928)" fill="#cacaca" />
-                <path
-                    d="M896.93606,663.21738v10a3.01557,3.01557,0,0,1-3,3h-5a.99647.99647,0,0,0-1,1v82a3.01557,3.01557,0,0,1-3,3h-61a3.0023,3.0023,0,0,1-3-3v-82a1.003,1.003,0,0,0-1-1h-6a3.0023,3.0023,0,0,1-3-3v-10a2.99585,2.99585,0,0,1,3-3h80A3.009,3.009,0,0,1,896.93606,663.21738Z"
-                    transform="translate(-114.4741 -135.80928)" fill="#f2f2f2" />
-                <rect x="706.5518" y="542.50808" width="67" height="3" fill="#e6e6e6" />
-                <path
-                    d="M887.93606,722.46217c-22.41974,9.27794-45.084,9.38019-68,0V701.327a106.78989,106.78989,0,0,1,68,0Z"
-                    transform="translate(-114.4741 -135.80928)" fill="#e6e6e6" />
-                <circle class="animate-bounce" cx="451.48125" cy="213.98538" r="36.39575" fill="#2f2e41" />
-                <path
-                    d="M576.09529,314.40075a36.40078,36.40078,0,0,1,32.03936,53.66882,36.38707,36.38707,0,1,0-60.4544-39.98248A36.306,36.306,0,0,1,576.09529,314.40075Z"
-                    transform="translate(-114.4741 -135.80928)" fill="#2f2e41" />
-                <circle cx="383.4705" cy="106.99576" r="106.91249" fill="#2f2e41" />
-                <path
-                    d="M414.03572,176.47092A106.89327,106.89327,0,0,1,562.20289,165.261c-.87427-.83106-1.73926-1.66886-2.6477-2.47643a106.91251,106.91251,0,0,0-142.0661,159.80724c.90844.80758,1.84179,1.56848,2.76953,2.33935A106.89336,106.89336,0,0,1,414.03572,176.47092Z"
-                    transform="translate(-114.4741 -135.80928)" fill="#2f2e41" />
-                <circle cx="382.5645" cy="144.14332" r="68.85889" fill="#ffb8b8" />
-                <path
-                    d="M532.21437,367.50466l-73.68847,3.31269s6.15038,38.10812-33.71528,41.73229-76.10721-7.24829-90.60382,19.93283-8.24829,123.96607-8.24829,123.96607,27.18115,97.85211,48.92605,112.34875,212.01291-5.43622,212.01291-5.43622L666.5259,562.81735l-2.697-77.53951c-1.40839-40.49105-38.37693-70.89154-78.1935-63.39829q-1.17287.22073-2.36205.47539s-8.74743-6.53759-32.74743-18.53759C535.8492,396.479,532.21437,367.50466,532.21437,367.50466Z"
-                    transform="translate(-114.4741 -135.80928)" fill="#cacaca" />
-                <path
-                    d="M372.26039,410.73757s17.5138,31.77787,10.26551,77.07978,23.164,141.11428,23.164,141.11428l21.74494-5.43622s-14.49662-94.228-10.87244-115.9729,4.62414-85.91251-13.49661-96.78494S372.26039,410.73757,372.26039,410.73757Z"
-                    transform="translate(-114.4741 -135.80928)" fill="#2f2e41" />
-                <path
-                    d="M581.99873,427.39977l7.61682,200.62579,14.49658,9.06037s20.83887-220.16727,9.96643-220.16727H591.95607a9.97041,9.97041,0,0,0-9.9704,9.97043Q581.98567,427.14457,581.99873,427.39977Z"
-                    transform="translate(-114.4741 -135.80928)" fill="#2f2e41" />
-                <circle cx="301.18217" cy="479.53178" r="9.06039" fill="#6c63ff" />
-                <circle cx="482.38982" cy="488.59217" r="9.06038" fill="#6c63ff" />
-                <polygon
-                    points="323.672 58.069 323.672 126.928 339.619 126.928 359.914 105.183 357.196 126.928 427.685 126.928 423.336 105.183 432.034 126.928 443.269 126.928 443.269 58.069 323.672 58.069"
-                    fill="#2f2e41" />
-                <ellipse cx="312.79955" cy="129.6467" rx="5.43622" ry="9.96642" fill="#ffb8b8" />
-                <ellipse cx="452.32945" cy="129.6467" rx="5.43622" ry="9.96642" fill="#ffb8b8" />
-                <path
-                    d="M717.62587,744.25542v6.07a13.34036,13.34036,0,0,1-.91,4.87,13.68347,13.68347,0,0,1-.97,2,13.4372,13.4372,0,0,1-11.55,6.56h-446.55a13.43737,13.43737,0,0,1-11.55-6.56,13.68965,13.68965,0,0,1-.97-2,13.34125,13.34125,0,0,1-.91-4.87v-6.07a13.42638,13.42638,0,0,1,13.42282-13.43h25.74717v-2.83a.55906.55906,0,0,1,.55816-.56h13.43183a.5591.5591,0,0,1,.56.55817v2.83185h8.39v-2.83a.55906.55906,0,0,1,.55816-.56h13.43183a.5591.5591,0,0,1,.56.55817v2.83185h8.4v-2.83a.55906.55906,0,0,1,.55817-.56h13.43182a.5591.5591,0,0,1,.56.55817v2.83185h8.39v-2.83a.55906.55906,0,0,1,.55817-.56h13.43182a.5591.5591,0,0,1,.56.55817v2.83185h8.39v-2.83a.55907.55907,0,0,1,.55817-.56h13.43182a.5591.5591,0,0,1,.56.55817v2.83185h8.4v-2.83a.55906.55906,0,0,1,.55816-.56h13.43183a.5591.5591,0,0,1,.56.55817v2.83185h8.39v-2.83a.55908.55908,0,0,1,.55817-.56H526.80586a.55908.55908,0,0,1,.56.55817v2.83185h8.4v-2.83a.55908.55908,0,0,1,.55817-.56h13.43182a.5655.5655,0,0,1,.56.56v2.83h8.39v-2.83a.55908.55908,0,0,1,.55817-.56h13.43182a.55908.55908,0,0,1,.56.55817v2.83185h8.39v-2.83a.55908.55908,0,0,1,.55816-.56h13.43183a.55908.55908,0,0,1,.56.55817v2.83185h8.4v-2.83a.55908.55908,0,0,1,.55816-.56h13.43183a.557.557,0,0,1,.55.56v2.83h8.4v-2.83a.55908.55908,0,0,1,.55817-.56h13.43182a.55908.55908,0,0,1,.56.55817v2.83185h8.39v-2.83a.55908.55908,0,0,1,.55817-.56h13.43182a.55908.55908,0,0,1,.56.55817v2.83185h39.17a13.42639,13.42639,0,0,1,13.43,13.42273Z"
-                    transform="translate(-114.4741 -135.80928)" fill="#3f3d56" />
-                <rect y="626.38145" width="971.0518" height="2" fill="#3f3d56" />
-                <path
-                    d="M681.66835,488.62124H272.6248a11.2586,11.2586,0,0,0-11.25861,11.2586V727.79131A11.25867,11.25867,0,0,0,272.62477,739.05H681.66835a11.25866,11.25866,0,0,0,11.2586-11.25867V499.87984a11.2586,11.2586,0,0,0-11.2586-11.2586Z"
-                    transform="translate(-114.4741 -135.80928)" fill="#3f3d56" />
-                <circle cx="362.99998" cy="432.38142" r="25" fill="#6c63ff" />
-                <polygon
-                    points="517.763 267.219 643.969 140.016 703.552 140.016 703.552 138.016 643.134 138.016 642.841 138.313 516.341 265.813 517.763 267.219"
-                    fill="#3f3d56" />
-                <rect x="776.32793" y="87.79227" width="146.22388" height="13.02985" fill="#6c63ff" />
-                <path d="M872.981,244.87035H842.02589V213.91478H872.981Zm-28.95508-2H870.981V215.91478H844.02589Z"
-                    transform="translate(-114.4741 -135.80928)" fill="#3f3d56" />
-                <rect x="776.32793" y="131.2251" width="146.22388" height="13.02985" fill="#6c63ff" />
-                <path d="M872.981,288.303H842.02589V257.34789H872.981Zm-28.95508-2H870.981V259.34789H844.02589Z"
-                    transform="translate(-114.4741 -135.80928)" fill="#3f3d56" />
-                <rect x="776.32793" y="174.65794" width="146.22388" height="13.02985" fill="#6c63ff" />
-                <path d="M872.981,331.73558H842.02589V300.78051H872.981Zm-28.95508-2H870.981V302.78051H844.02589Z"
-                    transform="translate(-114.4741 -135.80928)" fill="#3f3d56" /></svg>
+            <svg id="a52ce8ac-7708-4c6b-8f08-fc4d288bf8bf" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1031 649.97305"><title>static_page</title><rect y="519.29864" width="1031" height="2" fill="#3f3d56"/><rect x="550" y="223.29864" width="384" height="368" fill="#ff63cc"/><rect x="522" y="590.29864" width="475" height="2" fill="#3f3d56"/><rect x="665.81687" y="359.98831" width="110.15278" height="128.33333" fill="#f2f2f2"/><path d="M903.24743,614.40457h-154v-154h154Zm-151.86111-2.13889H901.10854V462.54346H751.38632Z" transform="translate(-84.5 -125.01348)" fill="#3f3d56"/><rect x="696.83076" y="380.30776" width="94.11111" height="2.13889" fill="#3f3d56"/><rect x="696.83076" y="403.83554" width="94.11111" height="2.13889" fill="#3f3d56"/><rect x="696.83076" y="427.36331" width="94.11111" height="2.13889" fill="#3f3d56"/><rect x="440.45361" y="74.29864" width="457.54639" height="2" fill="#3f3d56"/><rect x="96" y="403.29864" width="251" height="2" fill="#3f3d56"/><rect x="13" y="157.29864" width="361" height="223" fill="#ff63cc"/><rect x="61" y="225.13322" width="222" height="110.16541" fill="#f2f2f2"/><path d="M412.5,461.31211h-268v-134h268Zm-266-2h264v-130h-264Z" transform="translate(-84.5 -125.01348)" fill="#3f3d56"/><rect x="100.03076" y="258.21563" width="143.93848" height="2" fill="#3f3d56"/><rect x="100.03076" y="279.21563" width="143.93848" height="2" fill="#3f3d56"/><rect x="100.03076" y="300.21563" width="143.93848" height="2" fill="#3f3d56"/><path d="M551.74461,277.91212C540.1377,258.3,517.17434,257.386,517.17434,257.386s-22.37648-2.86148-36.73085,27.008c-13.37942,27.84079-31.84473,54.72165-2.97276,61.239l5.21511-16.23177,3.22969,17.4402a112.96671,112.96671,0,0,0,12.35324.21113c30.91954-.99827,60.36573.29206,59.4176-10.80317C556.426,321.49982,562.9128,296.78287,551.74461,277.91212Z" transform="translate(-84.5 -125.01348)" fill="#2f2e41"/><path d="M509.94532,314.84593s15,21,6,38,21,35,21,35l22-48s-26-17-19-33Z" transform="translate(-84.5 -125.01348)" fill="#fbbebe"/><circle cx="435.44532" cy="172.83246" r="26" fill="#fbbebe"/><path d="M429.96583,327.90179l21.728-28.03376s7.6506-29.38483,18.73125-27.89516-4.3766,35.23982-4.3766,35.23982l-21.58945,31.03056Z" transform="translate(-84.5 -125.01348)" fill="#fbbebe"/><polygon points="455.445 575.832 462.445 612.832 477.445 616.832 473.445 572.832 455.445 575.832" fill="#fbbebe"/><polygon points="606.445 535.832 633.445 572.832 644.445 577.832 653.445 562.832 626.445 527.832 606.445 535.832" fill="#fbbebe"/><path d="M533.94532,371.84593l-16.6811-21.95933s-32.3189,5.95933-35.3189,8.95933,8,58,8,58,2,15,11,23l9,6,74-15,2.78246-32.9258A86.41011,86.41011,0,0,0,563.94535,331.846l0,0-12.8758,1.76022Z" transform="translate(-84.5 -125.01348)" fill="#575a89"/><path d="M485.94532,360.84593l-5-2-23-2s-8-2-6-6,4-5,0-6-5-2-4-5,7-9,7-9l-17-14s-.9201.65081-2.4073,1.85491c-8.44043,6.83376-35.1472,31.48943-15.5927,56.14509,23,29,50,46,72,40Z" transform="translate(-84.5 -125.01348)" fill="#575a89"/><path d="M507.94532,440.84593v14s-9,17-6,33,4,24,4,24a136.53331,136.53331,0,0,0,7,40c7,20-16,151,13,153s45,4,54-6-15-182-15-182,82,171,99,164,60-23,55-32-131-209-131-209l-4-9Z" transform="translate(-84.5 -125.01348)" fill="#2f2e41"/><path d="M555.94532,730.84593s-16-1-16,4-8,22-8,22-6,20,10,18,26-20,26-20l-4-19Z" transform="translate(-84.5 -125.01348)" fill="#2f2e41"/><path d="M722.94532,695.84593s-14-9-13-3,2,22,9,23,28,7,29,9,25,10,25-3-15-23-15-23l-17-13s-11-1-13,6S722.94532,695.84593,722.94532,695.84593Z" transform="translate(-84.5 -125.01348)" fill="#2f2e41"/><circle cx="435.48482" cy="132.47187" r="16.60376" fill="#2f2e41"/><path d="M501.63329,253.11593a16.6044,16.6044,0,0,1,14.856-16.51042,16.77219,16.77219,0,0,0-1.74776-.09334,16.60377,16.60377,0,1,0,0,33.20753,16.77219,16.77219,0,0,0,1.74776-.09334A16.60441,16.60441,0,0,1,501.63329,253.11593Z" transform="translate(-84.5 -125.01348)" fill="#2f2e41"/><polygon points="462.113 151.008 439.426 139.125 408.097 143.986 401.615 172.614 417.751 171.994 422.258 161.476 422.258 171.821 429.703 171.534 434.025 154.789 436.726 172.614 463.193 172.074 462.113 151.008" fill="#2f2e41"/><path d="M545.25456,443.16266l-34.98722.94591s-29.85391,5.809-28.17895-6.24071,30.79949-7.83525,30.79949-7.83525l31.88021-4.86338Z" transform="translate(-84.5 -125.01348)" fill="#fbbebe"/><path d="M572.93658,330.1508a7.46667,7.46667,0,0,1,8.23586,5.128c6.84947,21.584,27.95077,93.81336,6.98533,103.72285-24.69358,11.67164-42.714,11.15847-42.714,11.15847l-9.64534-23.748,8.78051-8.24031,9.37441-60.27537,4.492-25.55049Z" transform="translate(-84.5 -125.01348)" fill="#575a89"/><polygon points="481.945 245.332 477.945 285.332 442.945 300.332 481.945 291.332 481.945 245.332" opacity="0.4"/><path d="M345.86686,610.08626c-5.68507,21.01543-25.15771,34.03082-25.15771,34.03082s-10.25533-21.05736-4.57026-42.07279,25.15771-34.03081,25.15771-34.03081S351.55193,589.07083,345.86686,610.08626Z" transform="translate(-84.5 -125.01348)" fill="#ff63cc"/><path d="M294.14859,610.08626c5.68507,21.01543,25.15771,34.03082,25.15771,34.03082s10.25533-21.05736,4.57026-42.07279-25.15771-34.03081-25.15771-34.03081S288.46352,589.07083,294.14859,610.08626Z" transform="translate(-84.5 -125.01348)" fill="#ff63cc"/><path d="M302.5024,605.56982c15.59991,15.18589,17.50533,38.53012,17.50533,38.53012s-23.387-1.27694-38.98695-16.46282S263.51545,589.107,263.51545,589.107,286.90249,590.38394,302.5024,605.56982Z" transform="translate(-84.5 -125.01348)" fill="#3f3d56"/><path d="M337.51305,605.56982c-15.59991,15.18589-17.50532,38.53012-17.50532,38.53012s23.387-1.27694,38.98694-16.46282S376.5,589.107,376.5,589.107,353.113,590.38394,337.51305,605.56982Z" transform="translate(-84.5 -125.01348)" fill="#3f3d56"/><path d="M774.86686,167.08626c-5.68507,21.01543-25.15771,34.03082-25.15771,34.03082s-10.25533-21.05736-4.57026-42.07279,25.15771-34.03081,25.15771-34.03081S780.55193,146.07083,774.86686,167.08626Z" transform="translate(-84.5 -125.01348)" fill="#ff63cc"/><path d="M723.14859,167.08626c5.68507,21.01543,25.15771,34.03082,25.15771,34.03082s10.25533-21.05736,4.57026-42.07279-25.15771-34.03081-25.15771-34.03081S717.46352,146.07083,723.14859,167.08626Z" transform="translate(-84.5 -125.01348)" fill="#ff63cc"/><path d="M731.5024,162.56982c15.59991,15.18589,17.50533,38.53012,17.50533,38.53012s-23.387-1.27694-38.987-16.46282S692.51545,146.107,692.51545,146.107,715.90249,147.38394,731.5024,162.56982Z" transform="translate(-84.5 -125.01348)" fill="#3f3d56"/><path d="M766.51305,162.56982c-15.59991,15.18589-17.50532,38.53012-17.50532,38.53012s23.387-1.27694,38.98694-16.46282S805.5,146.107,805.5,146.107,782.113,147.38394,766.51305,162.56982Z" transform="translate(-84.5 -125.01348)" fill="#3f3d56"/></svg>
         </div>
     </div>
 </div>
 
 {{-- check out our Resources Page --}} 
-<div class="bg-gray-800  items-center my-10 space-y-20 block py-10 mx-10 rounded-2xl ">
-    <h2 class="font-extrabold text-4xl text-center text-white">Geo Resources</h2>
-    <p class="text-xl font-bold text-center text-white"> Navigate Our Resources Page for Useful Tools you might need <i class="fas fa-wheel"></i></p>
+<div class="bg-white shadow-2xl  items-center my-10 space-y-20 block py-10 mx-10 rounded-2xl ">   
+    <h2 class="font-extrabold text-4xl text-center text-gray-900">Geo Resources</h2>
+    <p class="text-xl font-bold text-center text-gray-900"> Navigate Our Resources Page for Useful Tools you might need <i class="fas fa-wheel"></i></p>
     <div class="text-center"><a href="/resource"><button class="focus:outline-none rounded-full bg-yellow-300 font-bold text-2xl hover:bg-yellow-900 text-gray-900 border-gray-900 px-8 py-4 hover:text-gray-200 mb-5">Check It Out</button></a></div>
 </div>
 

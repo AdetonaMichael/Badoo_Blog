@@ -7,7 +7,7 @@
 
 
 .background-image{
-    background-image: url('https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png');
+    background-image: url('https://cdn.pixabay.com/photo/2018/01/16/10/29/waters-3085701_960_720.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     height:700px;
@@ -22,6 +22,19 @@
         display: contents;
     }
 }
+@media(min-width:1024px){
+    .skewcontent{
+        width:calc(50% - 50px);
+        height:100%;
+        background-color:white;
+        padding:2% 5%;
+        line-height: 1.5em;
+        font-size:19px;
+        text-align:justify;
+    }
+}
+
+
 @media(max-width: 860px){
     .mobile-menu{
         background-color: aliceblue;
