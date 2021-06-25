@@ -84,7 +84,7 @@
 
   <div class="sidebar-1 bg-white mx-5 md:mx-10 p-5 text-center font-bold mb-2">
     <p class="sidebar_title_1">Trending</p>
-  
+     
   </div>
 </div>
   

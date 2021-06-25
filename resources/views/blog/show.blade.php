@@ -131,7 +131,15 @@
          items: 4
 
 });
- </script>
 
+ </script>
+ <script>
+  $(document).ready(function(){
+    $.getJSON("https://newsapi.org/v2/everything?q=bitcoin&apiKey=7929f0ff7afe4714bd2bb41c46405ba1", function(data){
+         console.log(data);
+         console.log(data.articles[]);
+    });
+  }); 
+   </script>
 
 @endsection
